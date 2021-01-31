@@ -1,0 +1,884 @@
+
+********************* Analyse de la trame 1 ******************** 
+
+286  octets de donnees
+
+Ethernet II
+	Destination (Adresse MAC) :  b4:6b:fc:44:b8:7b
+	Source (Adresse MAC) :  d4:f8:29:44:e3:50
+	Type :       0x0800 (IPv4)
+
+Internet Protocol Version 4
+	Version :     4
+	Header Length :     20 bytes (5)
+	Differentiated Services Field :     0x0
+	Total Length :     272
+	Identification :     0x8768 (34664)
+	Flags :     0x0000
+		 0... .... .... .... = Reserved bit : Not set
+		 .0.. .... .... .... = Don't Fragment : Not Set
+		 ..0. .... .... .... = More Fragment : Not Set
+	Fragment offset :      0
+	Time to live :      119
+	Protocol :      TCP (6)
+	Header checksum :     0xfa0b Verified
+	Source :          34.107.221.82
+	Destination:      192.168.1.14
+	Pas d'options
+
+Transmission Control Protocol 
+	Source Port :      80
+	Destination Port :      33982
+	Sequence number :      2802638909
+	Acknowledgment number :      4178582065
+	1000 ....  = Header length :  32  bytes ( 8 )
+	 Flags :
+		0000 00.. .... = Reserved bit : Not set
+		.... ..0. .... = Urgent  : Not Set
+		.... ...1 .... = Acknowledgement  : Set
+		.... .... 1... = Push : Set
+		.... .... .0.. = Reset : Not Set
+		.... .... ..0. = Syn  : Not Set
+		.... .... ...0 = Fin  : Not Set
+	Window size value :      261
+	Checksum : 0xd9cb Verified
+	Urgent Pointer :     0x0000
+	 Options: (12 bytes)
+		TCP Option - No-Operation (NOP) (1 byte)
+		TCP Option - No-Operation (NOP) (1 byte)
+		TCP Option - Timestamp :
+			Kind : Time Stamp Option (8)
+			Length : 10
+			Timestamp value :  2977262328
+			Timestamp echo reply :  3474472390
+Hypertext Transfer Protocol
+	HTTP/1.1 200 OK
+	Server: nginx
+	Date: Tue, 22 Dec 2020 12:43:18 GMT
+	Content-Type: text/plain
+	Content-Length: 8
+	Via: 1.1 google
+	Age: 18494
+	Cache-Control: public, must-revalidate, max-age=0, s-maxage=86400
+		
+
+********************* Analyse de la trame 2 ******************** 
+
+153  octets de donnees
+
+Ethernet II
+	Destination (Adresse MAC) :  d4:f8:29:44:e3:50
+	Source (Adresse MAC) :  b4:6b:fc:44:b8:7b
+	Type :       0x0800 (IPv4)
+
+Internet Protocol Version 4
+	Version :     4
+	Header Length :     20 bytes (5)
+	Differentiated Services Field :     0x0
+	Total Length :     139
+	Identification :     0x9109 (37129)
+	Flags :     0x4000
+		 0... .... .... .... = Reserved bit : Not set
+		 .1.. .... .... .... = Don't Fragment : Set
+		 ..0. .... .... .... = More Fragment : Not Set
+	Fragment offset :      0
+	Time to live :      64
+	Protocol :      TCP (6)
+	Header checksum :     0x4c13 Verified
+	Source :          192.168.1.14
+	Destination:      34.122.121.32
+	Pas d'options
+
+Transmission Control Protocol 
+	Source Port :      48664
+	Destination Port :      80
+	Sequence number :      3196020413
+	Acknowledgment number :      3108036235
+	1000 ....  = Header length :  32  bytes ( 8 )
+	 Flags :
+		0000 00.. .... = Reserved bit : Not set
+		.... ..0. .... = Urgent  : Not Set
+		.... ...1 .... = Acknowledgement  : Set
+		.... .... 1... = Push : Set
+		.... .... .0.. = Reset : Not Set
+		.... .... ..0. = Syn  : Not Set
+		.... .... ...0 = Fin  : Not Set
+	Window size value :      502
+	Checksum : 0xa12c Verified
+	Urgent Pointer :     0x0000
+	 Options: (12 bytes)
+		TCP Option - No-Operation (NOP) (1 byte)
+		TCP Option - No-Operation (NOP) (1 byte)
+		TCP Option - Timestamp :
+			Kind : Time Stamp Option (8)
+			Length : 10
+			Timestamp value :  3827294014
+			Timestamp echo reply :  2263215852
+Hypertext Transfer Protocol
+	GET / HTTP/1.1
+	Host: connectivity-check.ubuntu.com
+	Accept: */*
+	Connection: close
+		
+
+********************* Analyse de la trame 3 ******************** 
+
+1374  octets de donnees
+
+Ethernet II
+	Destination (Adresse MAC) :  00:10:a4:86:2d:0b
+	Source (Adresse MAC) :  00:50:7f:05:7d:40
+	Type :       0x0800 (IPv4)
+
+Internet Protocol Version 4
+	Version :     4
+	Header Length :     20 bytes (5)
+	Differentiated Services Field :     0x0
+	Total Length :     1360
+	Identification :     0xd217 (53783)
+	Flags :     0x4000
+		 0... .... .... .... = Reserved bit : Not set
+		 .1.. .... .... .... = Don't Fragment : Set
+		 ..0. .... .... .... = More Fragment : Not Set
+	Fragment offset :      0
+	Time to live :      112
+	Protocol :      TCP (6)
+	Header checksum :     0x7e5d Verified
+	Source :          192.55.52.40
+	Destination:      10.33.182.178
+	Pas d'options
+
+Transmission Control Protocol 
+	Source Port :      80
+	Destination Port :      33971
+	Sequence number :      610779843
+	Acknowledgment number :      3063198902
+	1000 ....  = Header length :  32  bytes ( 8 )
+	 Flags :
+		0000 00.. .... = Reserved bit : Not set
+		.... ..0. .... = Urgent  : Not Set
+		.... ...1 .... = Acknowledgement  : Set
+		.... .... 1... = Push : Set
+		.... .... .0.. = Reset : Not Set
+		.... .... ..0. = Syn  : Not Set
+		.... .... ...0 = Fin  : Not Set
+	Window size value :      63218
+	Checksum : 0x4a79 Verified
+	Urgent Pointer :     0x0000
+	 Options: (12 bytes)
+		TCP Option - No-Operation (NOP) (1 byte)
+		TCP Option - No-Operation (NOP) (1 byte)
+		TCP Option - Timestamp :
+			Kind : Time Stamp Option (8)
+			Length : 10
+			Timestamp value :  19332368
+			Timestamp echo reply :  7317357
+Hypertext Transfer Protocol
+	It was not a ascii-encoded unicode string
+
+********************* Analyse de la trame 4 ******************** 
+
+551  octets de donnees
+
+Ethernet II
+	Destination (Adresse MAC) :  00:50:7f:05:7d:40
+	Source (Adresse MAC) :  00:10:a4:86:2d:0b
+	Type :       0x0800 (IPv4)
+
+Internet Protocol Version 4
+	Version :     4
+	Header Length :     20 bytes (5)
+	Differentiated Services Field :     0x0
+	Total Length :     537
+	Identification :     0x1798 (6040)
+	Flags :     0x4000
+		 0... .... .... .... = Reserved bit : Not set
+		 .1.. .... .... .... = Don't Fragment : Set
+		 ..0. .... .... .... = More Fragment : Not Set
+	Fragment offset :      0
+	Time to live :      64
+	Protocol :      TCP (6)
+	Header checksum :     0x6c14 Verified
+	Source :          10.33.182.178
+	Destination:      192.55.52.40
+	Pas d'options
+
+Transmission Control Protocol 
+	Source Port :      33971
+	Destination Port :      80
+	Sequence number :      3063197880
+	Acknowledgment number :      610765289
+	1000 ....  = Header length :  32  bytes ( 8 )
+	 Flags :
+		0000 00.. .... = Reserved bit : Not set
+		.... ..0. .... = Urgent  : Not Set
+		.... ...1 .... = Acknowledgement  : Set
+		.... .... 1... = Push : Set
+		.... .... .0.. = Reset : Not Set
+		.... .... ..0. = Syn  : Not Set
+		.... .... ...0 = Fin  : Not Set
+	Window size value :      5840
+	Checksum : 0x60e4 Verified
+	Urgent Pointer :     0x0000
+	 Options: (12 bytes)
+		TCP Option - No-Operation (NOP) (1 byte)
+		TCP Option - No-Operation (NOP) (1 byte)
+		TCP Option - Timestamp :
+			Kind : Time Stamp Option (8)
+			Length : 10
+			Timestamp value :  7317298
+			Timestamp echo reply :  0
+Hypertext Transfer Protocol
+	GET / HTTP/1.1
+	Host: www.xircom.com
+	User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.0.0) Gecko/20020623 Debian/1.0.0-0.woody.1
+	Accept: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,video/x-mng,image/png,image/jpeg,image/gif;q=0.2,text/css,*/*;q=0.1
+	Accept-Language: fr-FR, fr;q=0.66, en;q=0.33
+	Accept-Encoding: gzip, deflate, compress;q=0.9
+	Accept-Charset: ISO-8859-1, utf-8;q=0.66, *;q=0.66
+	Keep-Alive: 300
+	Connection: keep-alive
+		
+
+********************* Analyse de la trame 5 ******************** 
+
+224  octets de donnees
+
+Ethernet II
+	Destination (Adresse MAC) :  d8:c0:a6:d6:f3:c1
+	Source (Adresse MAC) :  aa:db:03:60:cf:3e
+	Type :       0x0800 (IPv4)
+
+Internet Protocol Version 4
+	Version :     4
+	Header Length :     20 bytes (5)
+	Differentiated Services Field :     0x0
+	Total Length :     210
+	Identification :     0xe4b2 (58546)
+	Flags :     0x4000
+		 0... .... .... .... = Reserved bit : Not set
+		 .1.. .... .... .... = Don't Fragment : Set
+		 ..0. .... .... .... = More Fragment : Not Set
+	Fragment offset :      0
+	Time to live :      55
+	Protocol :      UDP (17)
+	Header checksum :     0x3cdd Verified
+	Source :          213.163.95.91
+	Destination:      192.168.43.228
+	Pas d'options
+
+Notre analyseur ne prend pas en compte le protocole 0x11
+
+********************* Analyse de la trame 6 ******************** 
+
+138  octets de donnees
+
+Ethernet II
+	Destination (Adresse MAC) :  08:00:20:0a:ac:96
+	Source (Adresse MAC) :  08:00:20:0a:70:66
+	Type :       0x0800 (IPv4)
+
+Internet Protocol Version 4
+	Version :     4
+	Header Length :     60 bytes (15)
+	Differentiated Services Field :     0x0
+	Total Length :     124
+	Identification :     0xcbc9 (52169)
+	Flags :     0x0000
+		 0... .... .... .... = Reserved bit : Not set
+		 .0.. .... .... .... = Don't Fragment : Not Set
+		 ..0. .... .... .... = More Fragment : Not Set
+	Fragment offset :      0
+	Time to live :      255
+	Protocol :      ICMP (1)
+	Header checksum :     0xb97f Verified
+	Source :          132.227.61.5
+	Destination:      192.33.159.6
+	Options: (40 bytes)
+		Option IP - Record route (RR) 
+			Type : 7
+			Length :  39
+			Pointer :  4
+			Recorded Route : 0.0.0.0
+			Recorded Route : 0.0.0.0
+			Recorded Route : 0.0.0.0
+			Recorded Route : 0.0.0.0
+			Recorded Route : 0.0.0.0
+			Recorded Route : 0.0.0.0
+			Recorded Route : 0.0.0.0
+			Recorded Route : 0.0.0.0
+			Recorded Route : 0.0.0.0
+		Option IP - End of Options List (EOL) 
+		Option IP - End of Options List (EOL) 
+
+Notre analyseur ne prend pas en compte le protocole 0x01
+
+********************* Analyse de la trame 7 ******************** 
+
+138  octets de donnees
+
+Ethernet II
+	Destination (Adresse MAC) :  08:00:20:0a:70:66
+	Source (Adresse MAC) :  08:00:20:0a:ac:96
+	Type :       0x0800 (IPv4)
+
+Internet Protocol Version 4
+	Version :     4
+	Header Length :     60 bytes (15)
+	Differentiated Services Field :     0x0
+	Total Length :     124
+	Identification :     0x3f86 (16262)
+	Flags :     0x0000
+		 0... .... .... .... = Reserved bit : Not set
+		 .0.. .... .... .... = Don't Fragment : Not Set
+		 ..0. .... .... .... = More Fragment : Not Set
+	Fragment offset :      0
+	Time to live :      251
+	Protocol :      ICMP (1)
+	Header checksum :     0x49af Verified
+	Source :          192.33.159.6
+	Destination:      132.227.61.5
+	Options: (40 bytes)
+		Option IP - Record route (RR) 
+			Type : 7
+			Length :  39
+			Pointer :  40
+			Recorded Route : 132.227.60.32
+			Recorded Route : 192.44.65.18
+			Recorded Route : 192.70.71.5
+			Recorded Route : 192.33.159.2
+			Recorded Route : 192.33.159.6
+			Recorded Route : 192.70.71.6
+			Recorded Route : 192.44.65.26
+			Recorded Route : 132.227.60.30
+			Recorded Route : 132.227.61.135
+		Option IP - End of Options List (EOL) 
+
+Notre analyseur ne prend pas en compte le protocole 0x01
+
+********************* Analyse de la trame 8 ******************** 
+
+74  octets de donnees
+
+Ethernet II
+	Destination (Adresse MAC) :  00:01:02:a5:fb:3a
+	Source (Adresse MAC) :  00:01:02:a5:fc:8d
+	Type :       0x0800 (IPv4)
+
+Internet Protocol Version 4
+	Version :     4
+	Header Length :     20 bytes (5)
+	Differentiated Services Field :     0x0
+	Total Length :     60
+	Identification :     0xec26 (60454)
+	Flags :     0x4000
+		 0... .... .... .... = Reserved bit : Not set
+		 .1.. .... .... .... = Don't Fragment : Set
+		 ..0. .... .... .... = More Fragment : Not Set
+	Fragment offset :      0
+	Time to live :      64
+	Protocol :      TCP (6)
+	Header checksum :     0xcccd Verified
+	Source :          10.33.182.182
+	Destination:      132.227.60.13
+	Pas d'options
+
+Transmission Control Protocol 
+	Source Port :      3765
+	Destination Port :      80
+	Sequence number :      2840957540
+	Acknowledgment number :      0
+	1010 ....  = Header length :  40  bytes ( 10 )
+	 Flags :
+		0000 00.. .... = Reserved bit : Not set
+		.... ..0. .... = Urgent  : Not Set
+		.... ...0 .... = Acknowledgement  : Not Set
+		.... .... 0... = Push : Not Set
+		.... .... .0.. = Reset : Not Set
+		.... .... ..1. = Syn  : Set
+		.... .... ...0 = Fin  : Not Set
+	Window size value :      16060
+	Checksum : 0xa374 Verified
+	Urgent Pointer :     0x0000
+	 Options: (20 bytes)
+		TCP Option - Maximun segment size 1460 bytes
+			Kind : Maximum segment size (2)
+			Length : 4
+			MSS Value :  1460
+		TCP Option - SACK permitted
+			Kind : SACK permitted (4)
+			Length : 2
+		TCP Option - Timestamp :
+			Kind : Time Stamp Option (8)
+			Length : 10
+			Timestamp value :  137990422
+			Timestamp echo reply :  0
+		TCP Option - No-Operation (NOP) (1 byte)
+		TCP Option -  Window scale 0
+			Kind : Window Scale (3)
+			Length : 3
+			Shift count :  0
+
+********************* Analyse de la trame 9 ******************** 
+
+66  octets de donnees
+
+Ethernet II
+	Destination (Adresse MAC) :  00:50:7f:05:7d:40
+	Source (Adresse MAC) :  00:10:a4:86:2d:0b
+	Type :       0x0800 (IPv4)
+
+Internet Protocol Version 4
+	Version :     4
+	Header Length :     20 bytes (5)
+	Differentiated Services Field :     0x0
+	Total Length :     52
+	Identification :     0x179c (6044)
+	Flags :     0x4000
+		 0... .... .... .... = Reserved bit : Not set
+		 .1.. .... .... .... = Don't Fragment : Set
+		 ..0. .... .... .... = More Fragment : Not Set
+	Fragment offset :      0
+	Time to live :      64
+	Protocol :      TCP (6)
+	Header checksum :     0x6df5 Verified
+	Source :          10.33.182.178
+	Destination:      192.55.52.40
+	Pas d'options
+
+Transmission Control Protocol 
+	Source Port :      33971
+	Destination Port :      80
+	Sequence number :      3063198365
+	Acknowledgment number :      610770849
+	1000 ....  = Header length :  32  bytes ( 8 )
+	 Flags :
+		0000 00.. .... = Reserved bit : Not set
+		.... ..0. .... = Urgent  : Not Set
+		.... ...1 .... = Acknowledgement  : Set
+		.... .... 0... = Push : Not Set
+		.... .... .0.. = Reset : Not Set
+		.... .... ..0. = Syn  : Not Set
+		.... .... ...0 = Fin  : Not Set
+	Window size value :      16680
+	Checksum : 0x2828 Verified
+	Urgent Pointer :     0x0000
+	 Options: (12 bytes)
+		TCP Option - No-Operation (NOP) (1 byte)
+		TCP Option - No-Operation (NOP) (1 byte)
+		TCP Option - Timestamp :
+			Kind : Time Stamp Option (8)
+			Length : 10
+			Timestamp value :  7317338
+			Timestamp echo reply :  19332363
+
+********************* Analyse de la trame 10 ******************** 
+
+551  octets de donnees
+
+Ethernet II
+	Destination (Adresse MAC) :  00:50:7f:05:7d:40
+	Source (Adresse MAC) :  00:10:a4:86:2d:0b
+	Type :       0x0800 (IPv4)
+
+Internet Protocol Version 4
+	Version :     4
+	Header Length :     20 bytes (5)
+	Differentiated Services Field :     0x0
+	Total Length :     537
+	Identification :     0x1798 (6040)
+	Flags :     0x4000
+		 0... .... .... .... = Reserved bit : Not set
+		 .1.. .... .... .... = Don't Fragment : Set
+		 ..0. .... .... .... = More Fragment : Not Set
+	Fragment offset :      0
+	Time to live :      64
+	Protocol :      TCP (6)
+	Header checksum :     0x6c14 Verified
+	Source :          10.33.182.178
+	Destination:      192.55.52.40
+	Pas d'options
+
+Transmission Control Protocol 
+	Source Port :      33971
+	Destination Port :      80
+	Sequence number :      3063197880
+	Acknowledgment number :      610765289
+	1000 ....  = Header length :  32  bytes ( 8 )
+	 Flags :
+		0000 00.. .... = Reserved bit : Not set
+		.... ..0. .... = Urgent  : Not Set
+		.... ...1 .... = Acknowledgement  : Set
+		.... .... 1... = Push : Set
+		.... .... .0.. = Reset : Not Set
+		.... .... ..0. = Syn  : Not Set
+		.... .... ...0 = Fin  : Not Set
+	Window size value :      5840
+	Checksum : 0x60e4 Verified
+	Urgent Pointer :     0x0000
+	 Options: (12 bytes)
+		TCP Option - No-Operation (NOP) (1 byte)
+		TCP Option - No-Operation (NOP) (1 byte)
+		TCP Option - Timestamp :
+			Kind : Time Stamp Option (8)
+			Length : 10
+			Timestamp value :  7317298
+			Timestamp echo reply :  0
+Hypertext Transfer Protocol
+	GET / HTTP/1.1
+	Host: www.xircom.com
+	User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.0.0) Gecko/20020623 Debian/1.0.0-0.woody.1
+	Accept: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,video/x-mng,image/png,image/jpeg,image/gif;q=0.2,text/css,*/*;q=0.1
+	Accept-Language: fr-FR, fr;q=0.66, en;q=0.33
+	Accept-Encoding: gzip, deflate, compress;q=0.9
+	Accept-Charset: ISO-8859-1, utf-8;q=0.66, *;q=0.66
+	Keep-Alive: 300
+	Connection: keep-alive
+		
+
+********************* Analyse de la trame 11 ******************** 
+
+74  octets de donnees
+
+Ethernet II
+	Destination (Adresse MAC) :  00:01:02:a5:fb:3a
+	Source (Adresse MAC) :  00:01:02:a5:fc:8d
+	Type :       0x0800 (IPv4)
+
+Internet Protocol Version 4
+	Version :     4
+	Header Length :     20 bytes (5)
+	Differentiated Services Field :     0x0
+	Total Length :     60
+	Identification :     0xec26 (60454)
+	Flags :     0x4000
+		 0... .... .... .... = Reserved bit : Not set
+		 .1.. .... .... .... = Don't Fragment : Set
+		 ..0. .... .... .... = More Fragment : Not Set
+	Fragment offset :      0
+	Time to live :      64
+	Protocol :      TCP (6)
+	Header checksum :     0xcccd Verified
+	Source :          10.33.182.182
+	Destination:      132.227.60.13
+	Pas d'options
+
+Transmission Control Protocol 
+	Source Port :      3765
+	Destination Port :      80
+	Sequence number :      2840957540
+	Acknowledgment number :      0
+	1010 ....  = Header length :  40  bytes ( 10 )
+	 Flags :
+		0000 00.. .... = Reserved bit : Not set
+		.... ..0. .... = Urgent  : Not Set
+		.... ...0 .... = Acknowledgement  : Not Set
+		.... .... 0... = Push : Not Set
+		.... .... .0.. = Reset : Not Set
+		.... .... ..1. = Syn  : Set
+		.... .... ...0 = Fin  : Not Set
+	Window size value :      16060
+	Checksum : 0xa374 Verified
+	Urgent Pointer :     0x0000
+	 Options: (20 bytes)
+		TCP Option - Maximun segment size 1460 bytes
+			Kind : Maximum segment size (2)
+			Length : 4
+			MSS Value :  1460
+		TCP Option - SACK permitted
+			Kind : SACK permitted (4)
+			Length : 2
+		TCP Option - Timestamp :
+			Kind : Time Stamp Option (8)
+			Length : 10
+			Timestamp value :  137990422
+			Timestamp echo reply :  0
+		TCP Option - No-Operation (NOP) (1 byte)
+		TCP Option -  Window scale 0
+			Kind : Window Scale (3)
+			Length : 3
+			Shift count :  0
+
+********************* Analyse de la trame 12 ******************** 
+
+138  octets de donnees
+
+Ethernet II
+	Destination (Adresse MAC) :  08:00:20:0a:70:66
+	Source (Adresse MAC) :  08:00:20:0a:ac:96
+	Type :       0x0800 (IPv4)
+
+Internet Protocol Version 4
+	Version :     4
+	Header Length :     60 bytes (15)
+	Differentiated Services Field :     0x0
+	Total Length :     124
+	Identification :     0x3f86 (16262)
+	Flags :     0x0000
+		 0... .... .... .... = Reserved bit : Not set
+		 .0.. .... .... .... = Don't Fragment : Not Set
+		 ..0. .... .... .... = More Fragment : Not Set
+	Fragment offset :      0
+	Time to live :      251
+	Protocol :      ICMP (1)
+	Header checksum :     0x49af Verified
+	Source :          192.33.159.6
+	Destination:      132.227.61.5
+	Options: (40 bytes)
+		Option IP - Record route (RR) 
+			Type : 7
+			Length :  39
+			Pointer :  40
+			Recorded Route : 132.227.60.32
+			Recorded Route : 192.44.65.18
+			Recorded Route : 192.70.71.5
+			Recorded Route : 192.33.159.2
+			Recorded Route : 192.33.159.6
+			Recorded Route : 192.70.71.6
+			Recorded Route : 192.44.65.26
+			Recorded Route : 132.227.60.30
+			Recorded Route : 132.227.61.135
+		Option IP - End of Options List (EOL) 
+
+Notre analyseur ne prend pas en compte le protocole 0x01
+
+********************* Analyse de la trame 13 ******************** 
+
+66  octets de donnees
+
+Ethernet II
+	Destination (Adresse MAC) :  00:50:7f:05:7d:40
+	Source (Adresse MAC) :  00:10:a4:86:2d:0b
+	Type :       0x0800 (IPv4)
+
+Internet Protocol Version 4
+	Version :     4
+	Header Length :     20 bytes (5)
+	Differentiated Services Field :     0x0
+	Total Length :     52
+	Identification :     0x179c (6044)
+	Flags :     0x4000
+		 0... .... .... .... = Reserved bit : Not set
+		 .1.. .... .... .... = Don't Fragment : Set
+		 ..0. .... .... .... = More Fragment : Not Set
+	Fragment offset :      0
+	Time to live :      64
+	Protocol :      TCP (6)
+	Header checksum :     0x6df5 Verified
+	Source :          10.33.182.178
+	Destination:      192.55.52.40
+	Pas d'options
+
+Transmission Control Protocol 
+	Source Port :      33971
+	Destination Port :      80
+	Sequence number :      3063198365
+	Acknowledgment number :      610770849
+	1000 ....  = Header length :  32  bytes ( 8 )
+	 Flags :
+		0000 00.. .... = Reserved bit : Not set
+		.... ..0. .... = Urgent  : Not Set
+		.... ...1 .... = Acknowledgement  : Set
+		.... .... 0... = Push : Not Set
+		.... .... .0.. = Reset : Not Set
+		.... .... ..0. = Syn  : Not Set
+		.... .... ...0 = Fin  : Not Set
+	Window size value :      16680
+	Checksum : 0x2828 Verified
+	Urgent Pointer :     0x0000
+	 Options: (12 bytes)
+		TCP Option - No-Operation (NOP) (1 byte)
+		TCP Option - No-Operation (NOP) (1 byte)
+		TCP Option - Timestamp :
+			Kind : Time Stamp Option (8)
+			Length : 10
+			Timestamp value :  7317338
+			Timestamp echo reply :  19332363
+
+********************* Analyse de la trame 14 ******************** 
+
+551  octets de donnees
+
+Ethernet II
+	Destination (Adresse MAC) :  00:50:7f:05:7d:40
+	Source (Adresse MAC) :  00:10:a4:86:2d:0b
+	Type :       0x0800 (IPv4)
+
+Internet Protocol Version 4
+	Version :     4
+	Header Length :     20 bytes (5)
+	Differentiated Services Field :     0x0
+	Total Length :     537
+	Identification :     0x1798 (6040)
+	Flags :     0x4000
+		 0... .... .... .... = Reserved bit : Not set
+		 .1.. .... .... .... = Don't Fragment : Set
+		 ..0. .... .... .... = More Fragment : Not Set
+	Fragment offset :      0
+	Time to live :      64
+	Protocol :      TCP (6)
+	Header checksum :     0x6c14 Verified
+	Source :          10.33.182.178
+	Destination:      192.55.52.40
+	Pas d'options
+
+Transmission Control Protocol 
+	Source Port :      33971
+	Destination Port :      80
+	Sequence number :      3063197880
+	Acknowledgment number :      610765289
+	1000 ....  = Header length :  32  bytes ( 8 )
+	 Flags :
+		0000 00.. .... = Reserved bit : Not set
+		.... ..0. .... = Urgent  : Not Set
+		.... ...1 .... = Acknowledgement  : Set
+		.... .... 1... = Push : Set
+		.... .... .0.. = Reset : Not Set
+		.... .... ..0. = Syn  : Not Set
+		.... .... ...0 = Fin  : Not Set
+	Window size value :      5840
+	Checksum : 0x60e4 Verified
+	Urgent Pointer :     0x0000
+	 Options: (12 bytes)
+		TCP Option - No-Operation (NOP) (1 byte)
+		TCP Option - No-Operation (NOP) (1 byte)
+		TCP Option - Timestamp :
+			Kind : Time Stamp Option (8)
+			Length : 10
+			Timestamp value :  7317298
+			Timestamp echo reply :  0
+Hypertext Transfer Protocol
+	GET / HTTP/1.1
+	Host: www.xircom.com
+	User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.0.0) Gecko/20020623 Debian/1.0.0-0.woody.1
+	Accept: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,video/x-mng,image/png,image/jpeg,image/gif;q=0.2,text/css,*/*;q=0.1
+	Accept-Language: fr-FR, fr;q=0.66, en;q=0.33
+	Accept-Encoding: gzip, deflate, compress;q=0.9
+	Accept-Charset: ISO-8859-1, utf-8;q=0.66, *;q=0.66
+	Keep-Alive: 300
+	Connection: keep-alive
+		
+
+********************* Analyse de la trame 15 ******************** 
+
+ 
+La trame 14 est erronee car l'offset n'est pas dans l'ordre croissant
+
+
+********************* Analyse de la trame 16 ******************** 
+
+74  octets de donnees
+
+Ethernet II
+	Destination (Adresse MAC) :  00:01:02:a5:fb:3a
+	Source (Adresse MAC) :  00:01:02:a5:fc:8d
+	Type :       0x0800 (IPv4)
+
+Internet Protocol Version 4
+	Version :     4
+	Header Length :     20 bytes (5)
+	Differentiated Services Field :     0x0
+	Total Length :     60
+	Identification :     0xec26 (60454)
+	Flags :     0x4000
+		 0... .... .... .... = Reserved bit : Not set
+		 .1.. .... .... .... = Don't Fragment : Set
+		 ..0. .... .... .... = More Fragment : Not Set
+	Fragment offset :      0
+	Time to live :      64
+	Protocol :      TCP (6)
+	Header checksum :     0xcccd Verified
+	Source :          10.33.182.182
+	Destination:      132.227.60.13
+	Pas d'options
+
+Transmission Control Protocol 
+	Source Port :      3765
+	Destination Port :      80
+	Sequence number :      2840957540
+	Acknowledgment number :      0
+	1010 ....  = Header length :  40  bytes ( 10 )
+	 Flags :
+		0000 00.. .... = Reserved bit : Not set
+		.... ..0. .... = Urgent  : Not Set
+		.... ...0 .... = Acknowledgement  : Not Set
+		.... .... 0... = Push : Not Set
+		.... .... .0.. = Reset : Not Set
+		.... .... ..1. = Syn  : Set
+		.... .... ...0 = Fin  : Not Set
+	Window size value :      16060
+	Checksum : 0xa374 Verified
+	Urgent Pointer :     0x0000
+	 Options: (20 bytes)
+		TCP Option - Maximun segment size 1460 bytes
+			Kind : Maximum segment size (2)
+			Length : 4
+			MSS Value :  1460
+		TCP Option - SACK permitted
+			Kind : SACK permitted (4)
+			Length : 2
+		TCP Option - Timestamp :
+			Kind : Time Stamp Option (8)
+			Length : 10
+			Timestamp value :  137990422
+			Timestamp echo reply :  0
+		TCP Option - No-Operation (NOP) (1 byte)
+		TCP Option -  Window scale 0
+			Kind : Window Scale (3)
+			Length : 3
+			Shift count :  0
+
+********************* Analyse de la trame 17 ******************** 
+
+192  octets de donnees
+
+Ethernet II
+	Destination (Adresse MAC) :  aa:db:03:60:cf:3e
+	Source (Adresse MAC) :  d8:c0:a6:d6:f3:c1
+	Type :       0x0800 (IPv4)
+
+Internet Protocol Version 4
+	Version :     4
+	Header Length :     20 bytes (5)
+	Differentiated Services Field :     0x0
+	Total Length :     178
+	Identification :     0x3d87 (15751)
+	Flags :     0x4000
+		 0... .... .... .... = Reserved bit : Not set
+		 .1.. .... .... .... = Don't Fragment : Set
+		 ..0. .... .... .... = More Fragment : Not Set
+	Fragment offset :      0
+	Time to live :      64
+	Protocol :      TCP (6)
+	Header checksum :     0x5311 Verified
+	Source :          192.168.43.228
+	Destination:      134.157.54.132
+	Pas d'options
+
+Transmission Control Protocol 
+	Source Port :      43058
+	Destination Port :      443
+	Sequence number :      3089117835
+	Acknowledgment number :      2533535098
+	1000 ....  = Header length :  32  bytes ( 8 )
+	 Flags :
+		0000 00.. .... = Reserved bit : Not set
+		.... ..0. .... = Urgent  : Not Set
+		.... ...1 .... = Acknowledgement  : Set
+		.... .... 1... = Push : Set
+		.... .... .0.. = Reset : Not Set
+		.... .... ..0. = Syn  : Not Set
+		.... .... ...0 = Fin  : Not Set
+	Window size value :      501
+	Checksum : 0xd33d Bad checksum! ERROR
+	Urgent Pointer :     0x0000
+	 Options: (12 bytes)
+		TCP Option - No-Operation (NOP) (1 byte)
+		TCP Option - No-Operation (NOP) (1 byte)
+		TCP Option - Timestamp :
+			Kind : Time Stamp Option (8)
+			Length : 10
+			Timestamp value :  2132164737
+			Timestamp echo reply :  4130642906
+
+Notre analyseur ne peut pas lire le contenu de ce segment (pas HTTP)
